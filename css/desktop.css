@@ -235,8 +235,8 @@ html{
 
 .str-2{
     position: relative;
-    height: 1080px;
     display: flex;
+    height: 970px;
     flex-direction: row;
     background: #121212;
 
@@ -246,9 +246,9 @@ html{
 #linear-1{
     position: absolute;
     opacity: 0;
-    margin: 0 378px;
+    margin: 0 19.69%;
     width: 3px;
-    height: 1080px;
+    height: 954px;
     background: #404040;
     z-index: 1;
     animation-name: line-1-appearance;
@@ -262,9 +262,9 @@ html{
 #linear-2{
     position: absolute;
     opacity: 0;
-    margin: 0px 1498px;
+    margin: 0px 78.2%;
     width: 3px;
-    height: 1080px;
+    height: 954px;
     background: #404040;
     z-index: 1;
     animation-name: line-1-appearance;
@@ -275,15 +275,21 @@ html{
     animation-fill-mode: forwards;
 }
 
+.content-tx{
+    position: relative;
+    width: 954px;
+    height: 964px;
+    margin: 0 25%;
+}
+
 .block-anim{
     position: relative;
-    opacity: 0;
     z-index: 2;
-    min-width: 340px;
-    height: 1080px;
-    margin: 0px 762px;
+    opacity: 0;
+    width: 330px;
+    height: 100%;
+    margin: 0px 35%; 
     border-width: 0px 3px;
-    overflow: hidden;
     border-style: solid;
     border-color: #404040;
     background: #121212;
@@ -296,16 +302,20 @@ html{
     animation-fill-mode: forwards;
 }
 
-#fut-tx-1{
+.fut-tx-block{
     position: absolute;
+    width: 984px;
+    height: 165px;
     z-index: 1;
     opacity: 0;
+    top: 372px;
+    margin-left: 10px;
     font-style: normal;
     font-weight: 900;
     font-size: 230px;
     line-height: 239px;
     text-transform: uppercase;
-    margin: 432px 460px;
+    
     font-family: 'Montserrat';
     color: #FFFFFF;
     animation-name: fut-text;
@@ -316,16 +326,18 @@ html{
     animation-fill-mode: forwards;
 }
 
+
+
 #fut-tx-2{
-    position: absolute;
     opacity: 0;
+    position: absolute;
     font-style: normal;
+    margin: 372px 0px;
     font-weight: 900;
     font-size: 230px;
     line-height: 239px;
-    z-index: 3;
     text-transform: uppercase;
-    margin: 432px 10px;
+    
     font-family: 'Montserrat';
     color: #FFFFFF;
     animation-name: fut-text;
@@ -334,33 +346,20 @@ html{
     animation-iteration-count: 1;
     animation-delay: 11s;
     animation-fill-mode: forwards;
+    z-index: 3;
 }
 
 #fut-tx-3{
     position: absolute;
-    opacity: 0;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 230px;
-    z-index: 3;
-    line-height: 239px;
-    text-transform: uppercase;
-    margin: 432px 1114px;
-    font-family: 'Montserrat';
-    color: #FFFFFF;
-    animation-name: fut-text;
-    animation-duration: 2.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-    animation-delay: 11s;
-    animation-fill-mode: forwards;
+    right: 0;
 }
+
 
 #slog-fut{
     position: absolute;
     width: 218px;
     opacity: 0;
-    margin: 818px 60px;
+    margin: 718px 60px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -376,10 +375,17 @@ html{
     animation-fill-mode: forwards;
 }
 
+.triangle-purp{
+    position: absolute;
+    width: 1402px;
+    height: 100%;
+    left: -22%;
+    top: 0;
+}
+
 #triangle-wh-1{
     position: absolute;
-    top: 56px;
-    left: 987px;
+    right: 0;
     z-index: 3;
     opacity: 0;
     transform: rotate(0deg);
@@ -393,10 +399,10 @@ html{
 
 #triangle-wh-2{
     position: absolute;
-    top: 913px; 
-    left: 763px;
-    z-index: 2;
+    top: 813px; 
+    left: 0;
     opacity: 0;
+    z-index: 2;
     transform: rotate(0.26deg);
     animation-name: tr-wh-2;
     animation-duration: 1s;
@@ -408,8 +414,8 @@ html{
 
 #triangle-purp-1{
     position: absolute;
-    top:65px;
-    left: -200px;
+    top: 0px;
+    left: -300%;
     z-index: 1;
     animation-name: tr-pr-1;
     animation-duration: 1s;
@@ -421,8 +427,8 @@ html{
 }
 #triangle-purp-2{
     position: absolute;
-    top: 103px;
-    left: -200px;
+    top: 43px;
+    left: -300%;
     z-index: 1;
     animation-name: tr-pr-2;
     animation-duration: 1s;
@@ -435,8 +441,8 @@ html{
 #triangle-purp-3{
     position: absolute;
     z-index: 1;
-    left: -200px;
-    top: 219px;
+    left: -300%;
+    top: 149px;
     animation-name: tr-pr-3;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -448,8 +454,8 @@ html{
 #triangle-purp-4{
     position: absolute;
     z-index: 1;
-    left: -200px;
-    top: 450px;
+    left: -300%;
+    top: 380px;
     animation-name: tr-pr-4;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -460,8 +466,8 @@ html{
 }
 #triangle-purp-5{
     position: absolute;
-    left: -200px;
-    top: 598px;
+    left: -300%;
+    top: 478px;
     z-index: 1;
     animation-name: tr-pr-5;
     animation-duration: 1s;
@@ -474,8 +480,8 @@ html{
 #triangle-purp-6{
     position: absolute;
     z-index: 1;
-    left: -200px;
-    top: 782px;
+    left: -300%;
+    top: 712px;
     animation-name: tr-pr-6;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -487,8 +493,8 @@ html{
 #triangle-purp-7{
     position: absolute;
     z-index: 1;
-    top: 800px;
-    left: -200px;
+    top: 730px;
+    left: -300%;
     animation-name: tr-pr-7;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -500,8 +506,8 @@ html{
 #triangle-purp-8{
     position: absolute;
     z-index: 1;
-    top: 956px;
-    left: -200px;
+    top: 856px;
+    left: -300%;
     animation-name: tr-pr-8;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -514,7 +520,7 @@ html{
 
 
 /*О компании*/
-/*
+
 
 #about_company{
     position: relative;
@@ -779,30 +785,43 @@ html{
     position: absolute;
     width: 90px;
     height: 3px;
-
+    opacity: 0;
     left: 0;
     top: 50%;
 
     background-color: black;
+
+    animation-name: line-departure-3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 34.5s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_thirdlogo_text {
     position: absolute;
     
     right: 0;
-
+    opacity: 0;
     color: black;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
+    animation-name: logo-third-departure;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 35s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_text_3 {
     position: absolute;
     top: 1025px;
-    left: 50%;
+    left: -150%;
     margin-right: -50%;
     transform: translateX(-50%);
 
@@ -814,13 +833,19 @@ html{
     font-size: 20px;
     line-height: 29px;
     text-align: justify;
+
+    animation-name: text-3-departure;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 35.5s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_fourthlogo {
     position: absolute;
     width: 440px;
     height: 25px;
-
     top: 1202px;
     left: 200px;
 }
@@ -833,7 +858,15 @@ html{
     left: 0;
     top: 50%;
 
+    opacity: 0;
+
     background-color: black;
+    animation-name: line-departure-4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 36s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_fourthlogo_text {
@@ -847,12 +880,20 @@ html{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
+    opacity: 0;
+    animation-name: logo-fourth-departure;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 36.5s;
+    animation-fill-mode: forwards;
+
 }
 
 #aboutus_text_4 {
     position: absolute;
     top: 1267px;
-    left: 50%;
+    left: -150%;
     margin-right: -50%;
     transform: translateX(-50%);
 
@@ -864,6 +905,13 @@ html{
     font-size: 20px;
     line-height: 29px;
     text-align: justify;
+
+    animation-name: text-4-departure;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 36.5s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_fifthlogo {
@@ -873,6 +921,7 @@ html{
 
     top: 1406px;
     left: 200px;
+
 }
 
 #aboutus_fifthlogo_line {
@@ -883,7 +932,16 @@ html{
     left: 0;
     top: 50%;
 
+    opacity: 0;
+
     background-color: black;
+
+    animation-name: line-departure-5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 37s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_fifthlogo_text {
@@ -897,12 +955,19 @@ html{
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
+    opacity: 0;
+    animation-name: logo-fifth-departure;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 37.5s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_text_5 {
     position: absolute;
     top: 1457px;
-    left: 330px;
+    left: -100%;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -910,6 +975,13 @@ html{
     font-size: 64px;
 
     width: 934px;
+
+    animation-name: text-5-departure;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 38s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_big_font_3 {
@@ -918,19 +990,28 @@ html{
     font-weight: 900;
     font-size: 160px;
     top: 1490px;
-    left: 450px;
+    left: -1450px;
 
     color: rgba(0, 0, 0, 0.09);
+
+    animation-name: maniacs-departure;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 38.5s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_text_6 {
     position: absolute;
     top: 1671px;
-    left: 50%;
+    left: -150%;
     margin-right: -50%;
     transform: translateX(-50%);
 
     width: 1287px;
+
+    padding: 0 0 100px 0;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -938,57 +1019,95 @@ html{
     font-size: 20px;
     line-height: 29px;
     text-align: justify;
+
+    animation-name: text-6-departure;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 39.5s;
+    animation-fill-mode: forwards;
 }
 
 
 
 
 /*Страничка с женщиной*/
-.women{
-position: absolute;
-width: 650px;
-height: 927px;
-left: 1270px;
-top: 2px;
+
+
+
+.womenblock{
+    width: 100%;
+    height: 937px;
+    background-color: #121212
 }
 
+.women{
+    position: absolute;
+    width: 650px;
+    height: 927px;
+    right: 0px;
+    top: 2px;
+}
 
-.effective{
-position: absolute;
-width: 548px;
-height: 110px;
-left: 90px;
+.block-anim-wn{
+    width: 394px;
+    height: 100%;
+    margin: 0 42.45%;
+    border-width: 0px 3px;
+    border-style: solid;
+    border-color: #404040;
+    box-shadow: 0px 57px 66px 35px #000000;
+    z-index: 2;
+}
+
+#effective-anim{
+position: relative;
 top:380px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 96px;
-line-height: 117px;
+font-size: 140px;
+line-height: 171px;
+
 color: #FFFFFF;
 }
 
-.portfolio{
+
+.maintext{
 position: absolute;
-width: 678px;
-height: 110px;
-left: 90px;
-top: 473px;
+width: 907px;
+height: 326px;
+top: 0;
+left: 0;
+margin: 369px 4.53%;
+}
+
+#effective{
+position: relative;
 
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 96px;
-line-height: 117px;
-
+font-size: 140px;
+line-height: 171px;
+z-index: 1;
 color: #FFFFFF;
 }
 
-.look{
-position: absolute;
-width: 305px;
-height: 19px;
-left: 95px;
-top: 598px;
+#portfolio{
+position: relative;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 140px;
+line-height: 171px;
+z-index: 1;
+color: #FFFFFF;
+}
+
+#look{
+
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
@@ -996,6 +1115,7 @@ font-size: 20px;
 line-height: 24px;
 color: #FFFFFF;
 }
+
 
 .triangle{
 position: absolute;
@@ -1013,4 +1133,32 @@ transform: rotate(-6deg);
     top: 4320px;
 }
 
+@media screen and (min-width: 1921px) {
+    .content-tx{
+        margin: 0 40%;
+    }
+    .block-anim{
+        margin: 0 70%;
+    }
+}
 
+
+
+
+@media screen and (min-width: 2688px) {
+    .fut-tx-block{
+        margin-left: 30%;
+    }
+    .block-anim{
+        margin: 0 100%;
+    }
+    .triangle-purp{
+        left: 5%;
+    }
+}
+
+@media screen and (min-width: 3000px) {
+    .block-anim{
+        margin: 0 65%;
+    }
+}

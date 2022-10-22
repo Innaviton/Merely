@@ -73,7 +73,7 @@
         opacity: 1;
     }
 }
-/*
+
 @keyframes tr-1-end {
     0%{
         opacity: 1;
@@ -123,7 +123,7 @@
         opacity: 0;
     }
 }
-*/
+
 
 
 
@@ -187,7 +187,7 @@
     }
     100%{
         opacity: 1;
-        left: 684px;
+        left: 478px;
     }
 }
 
@@ -197,7 +197,7 @@
     }
     100%{
         opacity: 1;
-        left: 1159px;
+        left: 905.15px;
     }
 }
 @keyframes tr-pr-3 {
@@ -206,7 +206,7 @@
     }
     100%{
         opacity: 1;
-        left: 565px;
+        left: 310.78px;
     }
 }
 @keyframes tr-pr-4 {
@@ -215,7 +215,7 @@
     }
     100%{
         opacity: 1;
-        left: 231px;
+        left: 0;
     }
 }
 @keyframes tr-pr-5 {
@@ -224,7 +224,7 @@
     }
     100%{
         opacity: 1;
-        left: 1347px;
+        left: 1193px;
     }
 }
 @keyframes tr-pr-6 {
@@ -242,7 +242,7 @@
     }
     100%{
         opacity: 1;
-        left: 1482px;
+        left: 1227.55px;
     }
 }
 @keyframes tr-pr-8 {
@@ -251,7 +251,7 @@
     }
     100%{
         opacity: 1;
-        left: 670px;
+        left: 453.3px;
     }
 }
 
@@ -332,5 +332,100 @@
     100%{
         opacity: 1;
         top: 616px;
+    }
+}
+
+@keyframes line-departure-3 {
+    0%{
+        width: 0px;
+        opacity: 0;
+    }    
+    50%{
+        width: 45px;
+        opacity: 0.5;
+    }
+    100%{
+        width: 90px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo-third-departure {
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes text-3-departure {
+    100%{
+        left: 50%;
+    }
+}
+
+@keyframes line-departure-4 {
+    0%{
+        width: 0px;
+        opacity: 0;
+    }    
+    50%{
+        width: 45px;
+        opacity: 0.5;
+    }
+    100%{
+        width: 90px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo-fourth-departure {
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes text-4-departure {
+    100%{
+        left: 50%;
+    }
+}
+
+@keyframes line-departure-5 {
+    0%{
+        width: 0px;
+        opacity: 0;
+    }    
+    50%{
+        width: 45px;
+        opacity: 0.5;
+    }
+    100%{
+        width: 90px;
+        opacity: 1;
+    }
+}
+
+@keyframes logo-fifth-departure {
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes text-5-departure {
+    100%{
+        left: 330px;
+    }
+}
+
+@keyframes maniacs-departure {
+    100%{
+        opacity: 1;
+        left: 450px;
+    }   
+}
+
+@keyframes text-6-departure {
+    100%{
+        opacity: 1;
+        left: 50%;
     }
 }

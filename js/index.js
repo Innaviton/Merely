@@ -5,7 +5,7 @@ window.onbeforeunload = function () {
 
 function scroll2str() {
     window.scrollTo({
-        top: 1030, 
+        top: 960, 
         left: 0,
         behavior: 'smooth' 
     })
@@ -13,14 +13,14 @@ function scroll2str() {
 
 function scroll3str() {
     window.scrollTo({
-        top: 2080, 
+        top: 1930, 
         left: 0,
         behavior: 'smooth' 
     })
 }
 function scroll4str() {
     window.scrollTo({
-        top: 4320, 
+        top: 2900, 
         left: 0,
         behavior: 'smooth' 
     })
@@ -28,4 +28,4 @@ function scroll4str() {
 
 setTimeout(scroll2str, 7500)
 setTimeout(scroll3str, 16500)
-setTimeout(scroll4str, 23000)
+setTimeout(scroll4str, 33000)
