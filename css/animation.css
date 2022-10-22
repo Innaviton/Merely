@@ -1,0 +1,336 @@
+@keyframes nametag-appearance {
+    100%{
+        left: 4.375%;
+    }
+}
+
+@keyframes logo-opacity {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 50%;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes block-osn-appearance {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes tr-1-start {
+    0%{
+      opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes tr-2-start {
+    0%{
+      opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes tr-3-start {
+    0%{
+      opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes tr-4-start {
+    0%{
+      opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 1;
+    }
+}
+/*
+@keyframes tr-1-end {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+@keyframes tr-2-end {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes tr-3-end {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+@keyframes tr-4-end {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 0;
+    }
+}
+*/
+
+
+
+@keyframes line-1-appearance {
+     0%{
+        opacity: 0;
+     }   
+     50%{
+        opacity: 0.5;
+     }
+     100%{
+        opacity: 1;
+     }
+}
+
+@keyframes fut-text {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes slog-fut-text {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes tr-wh-1 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes tr-wh-2 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes tr-pr-1 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 684px;
+    }
+}
+
+@keyframes tr-pr-2 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 1159px;
+    }
+}
+@keyframes tr-pr-3 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 565px;
+    }
+}
+@keyframes tr-pr-4 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 231px;
+    }
+}
+@keyframes tr-pr-5 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 1347px;
+    }
+}
+@keyframes tr-pr-6 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 335px;
+    }
+}
+@keyframes tr-pr-7 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 1482px;
+    }
+}
+@keyframes tr-pr-8 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        left: 670px;
+    }
+}
+
+@keyframes about-departure {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        right: 210px;
+        opacity: 1;
+    }
+}
+
+@keyframes business-departure {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        left: 450px;
+        opacity: 1;
+    }
+}
+
+@keyframes line-departure-2 {
+    0%{
+        opacity: 0;
+        width: 0px;
+    }
+    50%{
+        opacity: 0.5;
+        width: 45px;
+    }
+    100%{
+        opacity: 1;
+        width: 90px;
+    }
+}
+
+@keyframes line-departure {
+    0%{
+        opacity: 0;
+        width: 0px;
+    }
+    50%{
+        opacity: 0.5;
+        width: 77.5px;
+    }
+    100%{
+        opacity: 1;
+        width: 155px;;
+    }
+}
+
+@keyframes text-departure {
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes text-desc-departure {
+    0%{
+        opacity: 0;
+    } 
+    100%{
+        left: 50%;
+        opacity: 1;
+    }
+}
+
+@keyframes text-departure-2 {
+    100%{
+        opacity: 1;
+        left: 330px;
+    }
+}
+
+@keyframes bisnesstasks-departure {
+    100%{
+        opacity: 1;
+        top: 616px;
+    }
+}

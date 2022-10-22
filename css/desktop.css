@@ -1,55 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-html{
-    margin: -10px -10px;
-    overflow-x: hidden;
-}
-.str-1{
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    height: auto;
-    margin: auto;
-    background: #121212;
+*{
+    margin: 0;
 }
 
-header{}
+html{
+    overflow-x: hidden;
+    animation-name: delay-str-1;
+    animation-duration: 23s;
+    animation-delay: 0s;  
+    overflow-y: scroll;  
+}
+
+.wraper{
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+
+.str-1{
+    margin: 0;
+    background-color: #121212;
+}
+
 
 .header-block{
-    position: relative;
-    width: 100%;
-    animation-name: head;
+    padding: 43px 4.375%;
 }
 
 .nametag-block{
-    position: relative;
+    position: absolute;
     height: 90px;
-    margin: 47px 70px;
-}
-#nametag-logo{
-    position: relative;
-    margin: 0;
+    left: -400px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
+    animation-name: nametag-appearance;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+#nametag-logo, #nametag-logo-2{
     font-weight: 700;
     font-size: 48px;
     line-height: 59px;
+}
+
+#nametag-logo{
     color: #FFFFFF;
 }
 #nametag-logo-2{
-    position: relative;
     margin: 0px 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 59px;
     color: #8487FF;
 }
 #nametag-slogan{
-    position: absolute;
-    margin: 62px -307px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -57,44 +63,81 @@ header{}
     color: #FFFFFF;
 }
 
+.animation-block{
+    position: absolute;
+    width: 981px;
+    height: 680px;
+    top: 104px;
+    left: 29%;
+}
 
 #triangle-1{
     position: absolute;
-    top: -100px;
-    left: -100px;
+    right: 11%;
+    opacity: 0;
     transform: rotate(-62.26deg);
+    animation-name: tr-1-start, tr-1-end;
+    animation-duration: 1.5s, 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 4s, 5.5s;
+    animation-fill-mode: forwards;
 }
 
 #triangle-2{
     position: absolute;
-    top: -100px;
-    left: -100px;
+    top: 120px;
+    left: 41.47%;
+    opacity: 0;
     transform: rotate(-62.26deg);
+    animation-name: tr-2-start, tr-2-end;
+    animation-duration: 1.5s, 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 4s, 5.5s;
+    animation-fill-mode: forwards;
 }
 
 #triangle-3{
     position: absolute;
-    top: -100px;
-    left: -100px;
+    top: 452px;
+    right: -0;
+    opacity: 0;
     transform: rotate(-41.18deg);
+    animation-name: tr-3-start, tr-3-end;
+    animation-duration: 1.5s, 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 4s, 5.5s;
+    animation-fill-mode: forwards;
 }
 
 
 #triangle-4{
     position: absolute;
-    top: -100px;
-    left: -100px;
+    top: 530px;
+    opacity: 0;
     transform: rotate(51.11deg);
+    animation-name: tr-4-start, tr-4-end;
+    animation-duration: 1.5s, 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 4s, 5.5s;
+    animation-fill-mode: forwards;
 }
 
 .name-logo{
-    position: relative;
     width: 750px;
-    height: 380px;
-    margin: 290px -470px;
-
+    padding: 168px 0px 166px 24.48%;
+    opacity: 0;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
+    animation-name: logo-opacity;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 #logo-text-1{
@@ -136,37 +179,37 @@ header{}
 
 .footer-block-osn{
     position: relative;
-    margin-top: 907px;
-    margin-left: -1200px;
+    padding: 0px 0px 64px 87px;
+    opacity: 0;
+    font-style: normal;
     font-family: 'Montserrat', sans-serif;
+    animation-name: block-osn-appearance;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
 
+}
+
+#fot-lg-1, #fot-lg-2, #fot-lg-3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 #fot-lg-1{
-    position: relative;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    top: -30px;
+
     color: #8487FF;
 }
 #fot-lg-2, #fot-lg-3{
-    position: relative;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    top: -30px;
     color: #FFFFFF;
 }
 
 #portfolio-but{
     position: absolute;
-    top: -5%;
-    margin-left: 1516px;
+    right: 84px;
 
-    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
@@ -187,8 +230,291 @@ header{}
 
 
 
-/*О компании*/
 
+/*STR - 2*/
+
+.str-2{
+    position: relative;
+    height: 1080px;
+    display: flex;
+    flex-direction: row;
+    background: #121212;
+
+}
+
+
+#linear-1{
+    position: absolute;
+    opacity: 0;
+    margin: 0 378px;
+    width: 3px;
+    height: 1080px;
+    background: #404040;
+    z-index: 1;
+    animation-name: line-1-appearance;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+
+#linear-2{
+    position: absolute;
+    opacity: 0;
+    margin: 0px 1498px;
+    width: 3px;
+    height: 1080px;
+    background: #404040;
+    z-index: 1;
+    animation-name: line-1-appearance;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+
+.block-anim{
+    position: relative;
+    opacity: 0;
+    z-index: 2;
+    min-width: 340px;
+    height: 1080px;
+    margin: 0px 762px;
+    border-width: 0px 3px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #404040;
+    background: #121212;
+    box-shadow: 0px 0px 33px 15px #000000;
+    animation-name: line-1-appearance;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 9s;
+    animation-fill-mode: forwards;
+}
+
+#fut-tx-1{
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 230px;
+    line-height: 239px;
+    text-transform: uppercase;
+    margin: 432px 460px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    animation-name: fut-text;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+}
+
+#fut-tx-2{
+    position: absolute;
+    opacity: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 230px;
+    line-height: 239px;
+    z-index: 3;
+    text-transform: uppercase;
+    margin: 432px 10px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    animation-name: fut-text;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+}
+
+#fut-tx-3{
+    position: absolute;
+    opacity: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 230px;
+    z-index: 3;
+    line-height: 239px;
+    text-transform: uppercase;
+    margin: 432px 1114px;
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    animation-name: fut-text;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+}
+
+#slog-fut{
+    position: absolute;
+    width: 218px;
+    opacity: 0;
+    margin: 818px 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    animation-name: slog-fut-text;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 14s;
+    animation-fill-mode: forwards;
+}
+
+#triangle-wh-1{
+    position: absolute;
+    top: 56px;
+    left: 987px;
+    z-index: 3;
+    opacity: 0;
+    transform: rotate(0deg);
+    animation-name: tr-wh-1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+#triangle-wh-2{
+    position: absolute;
+    top: 913px; 
+    left: 763px;
+    z-index: 2;
+    opacity: 0;
+    transform: rotate(0.26deg);
+    animation-name: tr-wh-2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+#triangle-purp-1{
+    position: absolute;
+    top:65px;
+    left: -200px;
+    z-index: 1;
+    animation-name: tr-pr-1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    transform: rotate(-62.26deg);
+}
+#triangle-purp-2{
+    position: absolute;
+    top: 103px;
+    left: -200px;
+    z-index: 1;
+    animation-name: tr-pr-2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    transform: rotate(-62.26deg);
+}
+#triangle-purp-3{
+    position: absolute;
+    z-index: 1;
+    left: -200px;
+    top: 219px;
+    animation-name: tr-pr-3;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    transform: rotate(-62.26deg);
+}
+#triangle-purp-4{
+    position: absolute;
+    z-index: 1;
+    left: -200px;
+    top: 450px;
+    animation-name: tr-pr-4;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    transform: rotate(-62.26deg);
+}
+#triangle-purp-5{
+    position: absolute;
+    left: -200px;
+    top: 598px;
+    z-index: 1;
+    animation-name: tr-pr-5;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    transform: rotate(-41.18deg);
+}
+#triangle-purp-6{
+    position: absolute;
+    z-index: 1;
+    left: -200px;
+    top: 782px;
+    animation-name: tr-pr-6;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    transform: rotate(51.11deg);
+}
+#triangle-purp-7{
+    position: absolute;
+    z-index: 1;
+    top: 800px;
+    left: -200px;
+    animation-name: tr-pr-7;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    transform: rotate(-62.26deg);
+}
+#triangle-purp-8{
+    position: absolute;
+    z-index: 1;
+    top: 956px;
+    left: -200px;
+    animation-name: tr-pr-8;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    transform: rotate(-62.26deg);
+}
+
+
+
+/*О компании*/
+/*
 
 #about_company{
     position: relative;
@@ -201,7 +527,15 @@ header{}
     font-weight: 800;
     font-size: 96px;
     top: 49px;
-    right: 210px;
+    opacity: 0;
+    right: -300px;
+    animation-name: about-departure;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
+
 
     color: rgba(0, 0, 0, 0.09);
 }
@@ -224,6 +558,14 @@ header{}
     position: absolute;
     top: 0px;
     right: 0;
+
+    opacity: 0;
+    animation-name: text-departure;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 18.5s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_firstlogo_line{
@@ -232,6 +574,14 @@ header{}
     height: 4px;
     left: 0;
     top: 50%;
+    opacity: 0;
+
+    animation-name: line-departure;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 17.5s;
+    animation-fill-mode: forwards;
 
     background-color: black;
 }
@@ -239,7 +589,7 @@ header{}
 #aboutus_text_1 {
     position: absolute;
     top: 217px;
-    left: 50%;
+    left: -700px;
     margin-right: -50%;
     transform: translateX(-50%);
 
@@ -251,6 +601,14 @@ header{}
     font-size: 20px;
     line-height: 29px;
     text-align: justify;
+
+    opacity: 0;
+    animation-name: text-desc-departure;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 19s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_secondlogo {
@@ -269,6 +627,13 @@ header{}
 
     left: 0;
     top: 50%;
+    opacity: 0;
+    animation-name: line-departure-2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 17.5s;
+    animation-fill-mode: forwards;
 
     background-color: black;
 }
@@ -284,19 +649,36 @@ header{}
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
+
+    opacity: 0;
+    animation-name: text-departure;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 20s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_text_2 {
     position: absolute;
     top: 415px;
-    left: 330px;
+    left: -830px;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
 
-    width: 651px;
+    width: 651px; 
+
+
+    opacity: 0;
+    animation-name: text-departure-2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 20s;
+    animation-fill-mode: forwards;
 }
 
 #aboutus_big_font_2 {
@@ -305,7 +687,14 @@ header{}
     font-weight: 900;
     font-size: 160px;
     top: 420px;
-    left: 450px;
+    left: -850px;
+
+    animation-name: business-departure;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 18s;
+    animation-fill-mode: forwards;
 
     color: rgba(0, 0, 0, 0.09);
 }
@@ -314,7 +703,7 @@ header{}
     position: absolute;
     width: 1054px;
 
-    top: 616px;
+    top: -500px;
 
     display: flex;
     flex-direction: row;
@@ -322,6 +711,14 @@ header{}
     left: 50%;
     margin-right: -50%;
     transform: translateX(-50%);
+
+    opacity: 0;
+    animation-name: bisnesstasks-departure;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 20.5s;
+    animation-fill-mode: forwards;
 }
 
 .bisnesstask {
@@ -544,108 +941,76 @@ header{}
 }
 
 
-/*STR - 2*/
 
-.str-2{
-    position: relative;
+
+/*Страничка с женщиной*/
+.women{
+position: absolute;
+width: 650px;
+height: 927px;
+left: 1270px;
+top: 2px;
+}
+
+
+.effective{
+position: absolute;
+width: 548px;
+height: 110px;
+left: 90px;
+top:380px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 117px;
+color: #FFFFFF;
+}
+
+.portfolio{
+position: absolute;
+width: 678px;
+height: 110px;
+left: 90px;
+top: 473px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 117px;
+
+color: #FFFFFF;
+}
+
+.look{
+position: absolute;
+width: 305px;
+height: 19px;
+left: 95px;
+top: 598px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.triangle{
+position: absolute;
+width: 150px;
+height: 370px;
+left: 1200px;
+top: 445px;
+transform: rotate(-6deg);
+}
+
+.womenblock{
     width: 100%;
-    height: 1080px;
-    display: flex;
-    flex-direction: row;
-    background: #121212;
-}
-
-#linear-1{
     position: absolute;
-    margin: 0 378px;
-    width: 3px;
-    height: 1080px;
-    background: #404040;
-    z-index: 1;
+    left: 0;
+    top: 4320px;
 }
 
-#linear-2{
-    position: absolute;
-    margin: 0px 1498px;
-    width: 3px;
-    height: 1080px;
-    background: #404040;
-    z-index: 1;
-}
 
-.block-anim{
-    position: relative;
-    z-index: 2;
-    min-width: 340px;
-    height: 1080px;
-    margin: 0px 762px;
-    border-width: 0px 3px;
-    overflow: hidden;
-    border-style: solid;
-    border-color: #404040;
-    background: #121212;
-    box-shadow: 0px 0px 33px 15px #000000;
-}
-
-#fut-tx-1{
-    position: absolute;
-    z-index: 1;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 230px;
-    line-height: 239px;
-    text-transform: uppercase;
-    margin: 432px 460px;
-    font-family: 'Montserrat';
-    color: #FFFFFF;
-}
-
-#fut-tx-2{
-    position: absolute;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 230px;
-    line-height: 239px;
-    text-transform: uppercase;
-    margin: 432px 10px;
-    font-family: 'Montserrat';
-    color: #FFFFFF;
-}
-
-#fut-tx-3{
-    position: absolute;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 230px;
-    line-height: 239px;
-    text-transform: uppercase;
-    margin: 432px 1114px;
-    font-family: 'Montserrat';
-    color: #FFFFFF;
-}
-
-#slog-fut{
-    position: absolute;
-    width: 218px;
-    margin: 818px 60px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-#triangle-wh-1{
-    position: relative;
-    margin: 36px 67.1%;
-    z-index: 1;
-    transform: rotate(0deg);
-}
-
-#triangle-wh-2{
-    position: relative;
-    margin: 650px -20px;
-    transform: rotate(-180.26deg);
-}
