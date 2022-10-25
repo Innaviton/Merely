@@ -316,7 +316,7 @@ html{
     line-height: 239px;
     text-transform: uppercase;
     
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     animation-name: fut-text;
     animation-duration: 2.5s;
@@ -338,7 +338,7 @@ html{
     line-height: 239px;
     text-transform: uppercase;
     
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: #FFFFFF;
     animation-name: fut-text;
     animation-duration: 2.5s;
@@ -360,7 +360,7 @@ html{
     width: 218px;
     opacity: 0;
     margin: 718px 60px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -529,7 +529,7 @@ html{
 
 #aboutus_big_font {
     position: absolute;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     font-size: 96px;
     top: 49px;
@@ -554,7 +554,7 @@ html{
     left: 200px;
     top: 66px;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -601,7 +601,7 @@ html{
 
     width: 1287px;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -651,7 +651,7 @@ html{
 
     color: black;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -670,7 +670,7 @@ html{
     top: 415px;
     left: -830px;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -689,7 +689,7 @@ html{
 
 #aboutus_big_font_2 {
     position: absolute;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 160px;
     top: 420px;
@@ -748,7 +748,7 @@ html{
 
 .bisnesstask_number {
     position: relative;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -763,7 +763,7 @@ html{
 .bisnesstask_text{
     position: relative;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -806,7 +806,7 @@ html{
     opacity: 0;
     color: black;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -827,7 +827,7 @@ html{
 
     width: 1287px;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -876,7 +876,7 @@ html{
 
     color: black;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -899,7 +899,7 @@ html{
 
     width: 1287px;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -951,7 +951,7 @@ html{
 
     color: black;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -969,7 +969,7 @@ html{
     top: 1457px;
     left: -100%;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -986,7 +986,7 @@ html{
 
 #aboutus_big_font_3 {
     position: absolute;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 160px;
     top: 1490px;
@@ -1013,7 +1013,7 @@ html{
 
     padding: 0 0 100px 0;
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -1036,34 +1036,79 @@ html{
 
 
 .womenblock{
+    position: relative;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 937px;
-    background-color: #121212
+    height: 1080px;
+    
+    left: 0;
+    top: 1920px;
+
+    background-color: #121212;
+    opacity: 0;
+    animation-name: women-block-appereance;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 51.5s;
+    animation-fill-mode: forwards;
+}
+.women{
+    position: relative;
+    width: 730px;
+    height: 1080px;
+    z-index: 3;
 }
 
-.women{
+.wn-bl{
     position: absolute;
-    width: 650px;
-    height: 927px;
-    right: 0px;
-    top: 2px;
+    width: 1124px;
+    height: 100%;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+
+    opacity: 0;
+    animation-name: wn-block-appereance;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 52s;
+    animation-fill-mode: forwards;
 }
 
 .block-anim-wn{
+    position: relative;
     width: 394px;
     height: 100%;
-    margin: 0 42.45%;
     border-width: 0px 3px;
     border-style: solid;
     border-color: #404040;
-    box-shadow: 0px 57px 66px 35px #000000;
-    z-index: 2;
+    box-shadow: 0px 27px 15px 0px #000000;
+    z-index: 4;
+    background-image: url(../img/women-2.png);
 }
 
 #effective-anim{
 position: relative;
-top:380px;
-font-family: 'Montserrat';
+top:370px;
+left: 5px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 140px;
+line-height: 171px;
+
+color: #FFFFFF;
+}
+
+#portfolio-anim{
+position: relative;
+top:370px;
+left: 5px;
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 140px;
@@ -1078,14 +1123,22 @@ position: absolute;
 width: 907px;
 height: 326px;
 top: 0;
+z-index: 1;
 left: 0;
 margin: 369px 4.53%;
+
+animation-name: main-text-block-appereance;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: 1;
+animation-delay: 52s;
+animation-fill-mode: forwards;
 }
 
 #effective{
 position: relative;
 
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 140px;
@@ -1097,7 +1150,7 @@ color: #FFFFFF;
 #portfolio{
 position: relative;
 
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 140px;
@@ -1108,7 +1161,7 @@ color: #FFFFFF;
 
 #look{
 
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
@@ -1121,16 +1174,16 @@ color: #FFFFFF;
 position: absolute;
 width: 150px;
 height: 370px;
-left: 1200px;
-top: 445px;
 transform: rotate(-6deg);
-}
+top: 641px;
+left: 367px;
+z-index: 3;
 
-.womenblock{
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 4320px;
+}
+#trg-wn{
+    position: relative;
+    top: 347px;
+    left: 150px;
 }
 
 @media screen and (min-width: 1921px) {
@@ -1161,4 +1214,299 @@ transform: rotate(-6deg);
     .block-anim{
         margin: 0 65%;
     }
+}
+ 
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.questions{
+    position: relative;
+    top: 2000px;
+    height: 1000px;
+}
+.name1{
+position: absolute;
+width: 805px;
+height: 147px;
+left: 89px;
+top: 100px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+
+color: #000000;
+}
+.count{
+position: absolute;
+width: 86px;
+height: 34px;
+left: 89px;
+top: 250px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+
+color: rgba(0, 0, 0, 0.68);
+}
+.line{
+position: absolute;
+width: 1283px;
+height: 4px;
+left: 89px;
+top: 300px;
+
+background: #8487FF;
+}
+.question1{
+position: absolute;
+width: 833px;
+height: 42px;
+left: 90px;
+top: 370px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+
+color: #000000;
+}
+.textbtn1{
+color: black;
+font-size: 21px;
+}
+
+
+
+
+#btn1, #btn1-1{
+position: absolute;
+width: 481px;
+height: 75px;
+left: 79px;
+top: 490px;
+font-family: 'Montserrat';
+}
+#btn2, #btn2-1{
+position: absolute;
+width: 680px;
+height: 75px;
+left: 610px;
+top: 490px;
+font-family: 'Montserrat';
+}
+#btn3{
+position: absolute;
+width: 450px;
+height: 75px;
+left: 79px;
+top: 600px;
+font-family: 'Montserrat';
+}
+
+#btn3-1{
+    position: absolute;
+    width: 750px;
+    height: 75px;
+    left: 79px;
+    top: 600px;
+    font-family: 'Montserrat';  
+}
+
+#btn4-1{
+  position: absolute;
+width: 450px;
+height: 75px;
+left: 880px;
+top: 600px;
+font-family: 'Montserrat';  
+}
+
+#btn4{
+position: absolute;
+width: 450px;
+height: 75px;
+left: 580px;
+top: 600px;
+font-family: 'Montserrat';
+}
+#btn5, #btn5-1{
+position: absolute;
+width: 600px;
+height: 75px;
+left: 79px;
+top: 710px;
+font-family: 'Montserrat';
+}
+#btn6, #btn6-1{
+position: absolute;
+width: 450px;
+height: 72px;
+left: 730px;
+top: 710px;
+font-family: 'Montserrat';
+}
+#btn7{
+position: absolute;
+width: 500px;
+height: 72px;
+left: 79px;
+top: 820px;
+font-family: 'Montserrat';
+}
+
+#btn7-1{
+    position: absolute;
+width: 600px;
+height: 72px;
+left: 79px;
+top: 820px;
+font-family: 'Montserrat';
+}
+
+#btn8{
+position: absolute;
+width: 160px;
+height: 70px;
+left: 79px;
+top: 920px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+background-color: #8487FF;
+font-size: 25px;
+line-height: 30px;
+display: none;
+}
+
+
+button:active{
+background-color: #8487FF;
+}
+
+
+::placeholder{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: rgba(0, 0, 0, 0.56);
+}
+input{
+box-sizing: border-box;
+position: absolute;
+width: 655px;
+height: 92px;
+left: 85px;
+top: 550px;
+border: 1px solid #000000;
+text-align: center;
+}
+#input1, #input1_2{
+font-size: 25px;
+font-family: 'Montserrat';
+
+}
+
+.btn-form-2{
+position: absolute;
+width: 160px;
+height: 70px;
+left: 270px;
+top: 680px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+background-color: #8487FF;
+font-family: 'Montserrat';
+font-size: 21px;
+line-height: 30px;
+}
+
+.btn-form-2-1{
+position: absolute;
+width: 160px;
+height: 70px;
+left: 79px;
+top: 680px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 30px;
+}
+
+#btn8-1{
+position: absolute;
+width: 160px;
+height: 80px;
+left: 281px;
+top: 920px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+background-color: #8487FF;
+font-family: 'Montserrat';
+font-size: 25px;
+line-height: 30px;
+display: none;
+
+}
+#btn9{
+position: absolute;
+width: 160px;
+height: 80px;
+left: 90px;
+top: 920px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+}
+
+
+
+#question-1{
+    display: block;
+}
+
+#question-2, #question-3, #question-4, #question-5, #question-6, #question-7{
+    display: none;
+}
+
+#btn5_1{
+position: absolute;
+width: 340px;
+height: 160px;
+left: 281px;
+top: 680px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+background-color: #8487FF;
+font-family: 'Montserrat';
+font-size: 25px;
+line-height: 30px;
+}
+
+.btn:hover{
+    background-color: #8487FF;
+    opacity: .8;
+}
+
+.active{
+    background-color: #8487FF;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6,#btn7, #btn1-1, #btn2-1, #btn3-1, #btn4-1, #btn5-1, #btn6-1, #btn7-1{
+border: 1px solid #8487FF;
 }

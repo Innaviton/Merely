@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.name1{
+position: absolute;
+width: 805px;
+height: 147px;
+left: 89px;
+top: 100px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 78px;
+
+color: #000000;
+}
+.count{
+position: absolute;
+width: 86px;
+height: 34px;
+left: 89px;
+top: 350px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+
+color: rgba(0, 0, 0, 0.68);
+}
+.line{
+position: absolute;
+width: 1283px;
+height: 4px;
+left: 89px;
+top: 400px;
+
+background: #8487FF;
+}
+.question1{
+position: absolute;
+width: 1100px;
+height: 42px;
+left: 90px;
+top: 440px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+
+color: #000000;
+}
+::placeholder{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+color: rgba(0, 0, 0, 0.56);
+
+
+}
+input{
+box-sizing: border-box;
+position: absolute;
+width: 655px;
+height: 92px;
+left: 90px;
+top: 570px;
+border: 1px solid #000000;
+text-align: center;
+}
+#btn1{
+position: absolute;
+width: 500px;
+height: 120px;
+left: 90px;
+top: 700px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+background-color: #8487FF;
+font-family: 'Montserrat';
+font-size: 25px;
+line-height: 30px;
+
+}
+#btn2{
+position: absolute;
+width: 160px;
+height: 80px;
+left: 90px;
+top: 850px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+}
+#input1{
+font-size: 25px;
+font-family: 'Montserrat';
+}

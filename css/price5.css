@@ -69,34 +69,38 @@ position: absolute;
 width: 655px;
 height: 92px;
 left: 85px;
-top: 620px;
+top: 600px;
 border: 1px solid #000000;
 text-align: center;
 }
 #btn1{
-    position: absolute;
-    width: 160px;
-    height: 80px;
-    left: 270px;
-    top: 750px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    background-color: #8487FF;
-    font-family: 'Montserrat';
-    font-size: 25px;
-    line-height: 30px;
-    
-    }
-    #btn2{
-    position: absolute;
-    width: 160px;
-    height: 80px;
-    left: 79px;
-    top: 750px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
-    }
+position: absolute;
+width: 160px;
+height: 80px;
+left: 270px;
+top: 750px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+background-color: #8487FF;
+font-family: 'Montserrat';
+font-size: 25px;
+line-height: 30px;
+
+}
+#btn2{
+position: absolute;
+width: 160px;
+height: 80px;
+left: 79px;
+top: 750px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 30px;
+}
+#input1{
+font-size: 25px;
+font-family: 'Montserrat';
+}
