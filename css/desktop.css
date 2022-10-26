@@ -1510,3 +1510,11 @@ line-height: 30px;
 #btn1, #btn2, #btn3, #btn4, #btn5, #btn6,#btn7, #btn1-1, #btn2-1, #btn3-1, #btn4-1, #btn5-1, #btn6-1, #btn7-1{
 border: 1px solid #8487FF;
 }
+.btn1{
+position: absolute;
+width: 481px;
+height: 75px;
+left: 79px;
+top: 490px;
+font-family: 'Montserrat';
+}
