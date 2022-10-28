@@ -29,12 +29,13 @@ html{
     padding: 43px 4.375%;
 }
 
+
+
 .nametag-block{
     position: absolute;
     height: 90px;
     left: -400px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     animation-name: nametag-appearance;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -130,8 +131,7 @@ html{
     width: 750px;
     padding: 168px 0px 166px 24.48%;
     opacity: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     animation-name: logo-opacity;
     animation-duration: 3s;
     animation-timing-function: linear;
@@ -182,8 +182,7 @@ html{
     padding: 0px 0px 64px 87px;
     opacity: 0;
     font-style: normal;
-    font-family: 'Montserrat', sans-serif;
-    animation-name: block-osn-appearance;
+    font-family: 'Montserrat', sans-serif;    animation-name: block-osn-appearance;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
@@ -316,8 +315,7 @@ html{
     line-height: 239px;
     text-transform: uppercase;
     
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;    color: #FFFFFF;
     animation-name: fut-text;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -338,8 +336,7 @@ html{
     line-height: 239px;
     text-transform: uppercase;
     
-    font-family: 'Montserrat', sans-serif;
-    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;    color: #FFFFFF;
     animation-name: fut-text;
     animation-duration: 2.5s;
     animation-timing-function: linear;
@@ -360,8 +357,7 @@ html{
     width: 218px;
     opacity: 0;
     margin: 718px 60px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
@@ -529,8 +525,7 @@ html{
 
 #aboutus_big_font {
     position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;    font-weight: 800;
     font-size: 96px;
     top: 49px;
     opacity: 0;
@@ -554,8 +549,7 @@ html{
     left: 200px;
     top: 66px;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 700;
     font-size: 40px;
 }
@@ -601,8 +595,7 @@ html{
 
     width: 1287px;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
@@ -651,8 +644,7 @@ html{
 
     color: black;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 600;
     font-size: 20px;
 
@@ -670,8 +662,7 @@ html{
     top: 415px;
     left: -830px;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 700;
     font-size: 45px;
 
@@ -689,8 +680,7 @@ html{
 
 #aboutus_big_font_2 {
     position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;    font-weight: 900;
     font-size: 160px;
     top: 420px;
     left: -850px;
@@ -748,8 +738,7 @@ html{
 
 .bisnesstask_number {
     position: relative;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     margin-left: -10px;
@@ -763,8 +752,7 @@ html{
 .bisnesstask_text{
     position: relative;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 600;
     font-size: 15px;
 
@@ -806,8 +794,7 @@ html{
     opacity: 0;
     color: black;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     animation-name: logo-third-departure;
@@ -827,8 +814,7 @@ html{
 
     width: 1287px;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
@@ -876,8 +862,7 @@ html{
 
     color: black;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     opacity: 0;
@@ -899,8 +884,7 @@ html{
 
     width: 1287px;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
@@ -951,8 +935,7 @@ html{
 
     color: black;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     opacity: 0;
@@ -969,8 +952,7 @@ html{
     top: 1457px;
     left: -100%;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 700;
     font-size: 64px;
 
@@ -986,8 +968,7 @@ html{
 
 #aboutus_big_font_3 {
     position: absolute;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;    font-weight: 900;
     font-size: 160px;
     top: 1490px;
     left: -1450px;
@@ -1013,8 +994,7 @@ html{
 
     padding: 0 0 100px 0;
 
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
+    font-family: 'Montserrat', sans-serif;    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
@@ -1095,8 +1075,7 @@ html{
 position: relative;
 top:370px;
 left: 5px;
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
+font-family: 'Montserrat', sans-serif;font-style: normal;
 font-weight: 700;
 font-size: 140px;
 line-height: 171px;
@@ -1108,8 +1087,7 @@ color: #FFFFFF;
 position: relative;
 top:370px;
 left: 5px;
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
+font-family: 'Montserrat', sans-serif;font-style: normal;
 font-weight: 700;
 font-size: 140px;
 line-height: 171px;
@@ -1138,8 +1116,7 @@ animation-fill-mode: forwards;
 #effective{
 position: relative;
 
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
+font-family: 'Montserrat', sans-serif;font-style: normal;
 font-weight: 700;
 font-size: 140px;
 line-height: 171px;
@@ -1150,8 +1127,7 @@ color: #FFFFFF;
 #portfolio{
 position: relative;
 
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
+font-family: 'Montserrat', sans-serif;font-style: normal;
 font-weight: 700;
 font-size: 140px;
 line-height: 171px;
@@ -1161,8 +1137,7 @@ color: #FFFFFF;
 
 #look{
 
-font-family: 'Montserrat', sans-serif;
-font-style: normal;
+font-family: 'Montserrat', sans-serif;font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 24px;
@@ -1223,6 +1198,13 @@ z-index: 3;
     position: relative;
     top: 2000px;
     height: 1000px;
+    animation-name: questions-block;
+    opacity: 0;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-delay: 55s;
+    animation-fill-mode: forwards;
 }
 .name1{
 position: absolute;
@@ -1231,7 +1213,7 @@ height: 147px;
 left: 89px;
 top: 100px;
 
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
@@ -1246,7 +1228,7 @@ height: 34px;
 left: 89px;
 top: 250px;
 
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 30px;
@@ -1270,7 +1252,7 @@ height: 42px;
 left: 90px;
 top: 370px;
 
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 40px;
@@ -1292,7 +1274,7 @@ width: 481px;
 height: 75px;
 left: 79px;
 top: 490px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 }
 #btn2, #btn2-1{
 position: absolute;
@@ -1300,7 +1282,7 @@ width: 680px;
 height: 75px;
 left: 610px;
 top: 490px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 }
 #btn3{
 position: absolute;
@@ -1308,7 +1290,7 @@ width: 450px;
 height: 75px;
 left: 79px;
 top: 600px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 }
 
 #btn3-1{
@@ -1317,7 +1299,7 @@ font-family: 'Montserrat';
     height: 75px;
     left: 79px;
     top: 600px;
-    font-family: 'Montserrat';  
+    font-family: 'Montserrat', sans-serif;  
 }
 
 #btn4-1{
@@ -1326,7 +1308,7 @@ width: 450px;
 height: 75px;
 left: 880px;
 top: 600px;
-font-family: 'Montserrat';  
+font-family: 'Montserrat', sans-serif;  
 }
 
 #btn4{
@@ -1335,7 +1317,7 @@ width: 450px;
 height: 75px;
 left: 580px;
 top: 600px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 }
 #btn5, #btn5-1{
 position: absolute;
@@ -1343,7 +1325,7 @@ width: 600px;
 height: 75px;
 left: 79px;
 top: 710px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 }
 #btn6, #btn6-1{
 position: absolute;
@@ -1351,7 +1333,7 @@ width: 450px;
 height: 72px;
 left: 730px;
 top: 710px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 }
 #btn7{
 position: absolute;
@@ -1359,7 +1341,7 @@ width: 500px;
 height: 72px;
 left: 79px;
 top: 820px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 }
 
 #btn7-1{
@@ -1368,7 +1350,7 @@ width: 600px;
 height: 72px;
 left: 79px;
 top: 820px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 }
 
 #btn8{
@@ -1377,7 +1359,7 @@ width: 160px;
 height: 70px;
 left: 79px;
 top: 920px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 background-color: #8487FF;
@@ -1393,7 +1375,7 @@ background-color: #8487FF;
 
 
 ::placeholder{
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-weight: 500;
 font-size: 25px;
 line-height: 30px;
@@ -1412,7 +1394,7 @@ text-align: center;
 }
 #input1, #input1_2{
 font-size: 25px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -1422,11 +1404,11 @@ width: 160px;
 height: 70px;
 left: 270px;
 top: 680px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 background-color: #8487FF;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-size: 21px;
 line-height: 30px;
 }
@@ -1437,7 +1419,7 @@ width: 160px;
 height: 70px;
 left: 79px;
 top: 680px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 21px;
@@ -1450,11 +1432,11 @@ width: 160px;
 height: 80px;
 left: 281px;
 top: 920px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 background-color: #8487FF;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-size: 25px;
 line-height: 30px;
 display: none;
@@ -1466,7 +1448,7 @@ width: 160px;
 height: 80px;
 left: 90px;
 top: 920px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 25px;
@@ -1489,14 +1471,16 @@ width: 340px;
 height: 160px;
 left: 281px;
 top: 680px;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-style: normal;
 font-weight: 500;
 background-color: #8487FF;
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-size: 25px;
 line-height: 30px;
 }
+
+
 
 .btn:hover{
     background-color: #8487FF;
@@ -1509,4 +1493,103 @@ line-height: 30px;
 
 #btn1, #btn2, #btn3, #btn4, #btn5, #btn6,#btn7, #btn1-1, #btn2-1, #btn3-1, #btn4-1, #btn5-1, #btn6-1, #btn7-1{
 border: 1px solid #8487FF;
+display: block;
 }
+
+
+
+
+.menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: absolute;
+    top: 20px;
+    left: 1720px;
+    width: 50px;
+    height: 47px;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .hamburger-menu{
+    position: absolute;
+    width: 100px;
+    left: 10px;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+  
+  /* контейнер меню */
+  .menu__box {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    top: 0;
+    left: 1400px;
+    width: 400px;
+    height: 100%;
+    margin: 0;
+    padding: 160px 0;
+    list-style: none;
+    text-align: right;
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: rgba(255, 255, 255, 0.38);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  #menu-tx-2:hover, #menu-tx-3:hover, #menu-tx-4:hover, #menu-tx-5:hover, #menu-tx-6:hover, #menu-tx-7:hover{
+    color: white;
+  }
+
+  #menu-tx-1{
+    color: white;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+  }
+
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    transition-duration: .25s;
+  }
+
+
+  #menu__toggle{
+    display: none;
+  }
