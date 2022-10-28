@@ -1551,18 +1551,20 @@ display: block;
     display: block;
     padding: 12px 24px;
     color: rgba(255, 255, 255, 0.38);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
   }
 
-  #menu-tx-2:hover, #menu-tx-3:hover, #menu-tx-4:hover, #menu-tx-5:hover, #menu-tx-6:hover, #menu-tx-7:hover{
+  #menu-tx-2:hover, #menu-tx-3:hover, #menu-tx-4:hover, #menu-tx-5:hover, #menu-tx-6:hover{
     color: white;
+    text-decoration: none;
   }
 
   #menu-tx-1{
     color: white;
+    text-decoration: none;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
