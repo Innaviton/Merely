@@ -10,10 +10,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Merely tech</title>
+    <form action="send.php" method="post">
 </head>
 <body>
     <div class="wraper">
@@ -24,21 +24,7 @@
                             <span id="nametag-slogan">Сложные задачи станут простыми</span>
                         </div>
                         <div class="menu-block">
-                            <div class="hamburger-menu">
-                                <input id="menu__toggle" type="checkbox" />
-                                <label class="menu__btn" for="menu__toggle">
-                                <span></span>
-                                </label>
-                                <ul class="menu__box">
-                                  <li><a class="menu__item" id="menu-tx-1" href="#">Главная</a></li>
-                                  <li><a class="menu__item" id="menu-tx-2" href="#about_company">О компании</a></li>
-                                  <li><a class="menu__item" id="menu-tx-3" href="#">Дизайн</a></li>
-                                  <li><a class="menu__item" id="menu-tx-4" href="#">Разработка</a></li>
-                                  <li><a class="menu__item" id="menu-tx-5" href="#">Project Menegment</a></li>
-                                  <li><a class="menu__item" id="menu-tx-6" href="#">Услуги</a></li>
-                                  <li><a class="menu__item" id="menu-tx-7" href="#">Контакты</a></li>
-                                </ul>
-                              </div>
+                            <!--Здесь будет бургер меню-->
                         </div>
                     </div>
                     <div class="animation-block">
@@ -63,47 +49,47 @@
                         <span id="portfolio-but">portfolio</span>
                     </div>
 
-            </div>
-            <div class="str-2" >
-                <div id="linear-1"></div>
-                <div id="linear-2"></div>
-                <div class="content-tx">
-                    <div class="block-anim">
-                        <span id="fut-tx-2">tu</span>
-                        <span id="slog-fut">Создаем самый <br>лучший продукт <br>для вашего бизнеса</span>
-                        <img id="triangle-wh-1" src="img/trg-wh-1.svg" >
-                        <img id="triangle-wh-2" src="img/trg-wh-2.svg">
-                    </div>
-                    <div class="fut-tx-block">
-                        <span id="fut-tx-1">fu</span>
-                        <span id="fut-tx-3">re</span>
-                    </div>
-                    <div class="triangle-purp">
-                        <img id="triangle-purp-1" src="img/trg-pr-1.svg">
-                        <img id="triangle-purp-2" src="img/trg-pr-2.svg">
-                        <img id="triangle-purp-3" src="img/trg-pr-3.svg">
-                        <img id="triangle-purp-4" src="img/trg-pr-4.svg">
-                        <img id="triangle-purp-5" src="img/trg-pr-5.svg">
-                        <img id="triangle-purp-6" src="img/trg-pr-6.svg">
-                        <img id="triangle-purp-7" src="img/trg-pr-7.svg">
-                        <img id="triangle-purp-8" src="img/trg-pr-8.svg">
-                    </div>
+        </div>
+        <div class="str-2" >
+            <div id="linear-1"></div>
+            <div id="linear-2"></div>
+            <div class="content-tx">
+                <div class="block-anim">
+                    <span id="fut-tx-2">tu</span>
+                    <span id="slog-fut">Создаем самый <br>лучший продукт <br>для вашего бизнеса</span>
+                    <img id="triangle-wh-1" src="img/trg-wh-1.svg" >
+                    <img id="triangle-wh-2" src="img/trg-wh-2.svg">
+                </div>
+                <div class="fut-tx-block">
+                    <span id="fut-tx-1">fu</span>
+                    <span id="fut-tx-3">re</span>
+                </div>
+                <div class="triangle-purp">
+                    <img id="triangle-purp-1" src="img/trg-pr-1.svg">
+                    <img id="triangle-purp-2" src="img/trg-pr-2.svg">
+                    <img id="triangle-purp-3" src="img/trg-pr-3.svg">
+                    <img id="triangle-purp-4" src="img/trg-pr-4.svg">
+                    <img id="triangle-purp-5" src="img/trg-pr-5.svg">
+                    <img id="triangle-purp-6" src="img/trg-pr-6.svg">
+                    <img id="triangle-purp-7" src="img/trg-pr-7.svg">
+                    <img id="triangle-purp-8" src="img/trg-pr-8.svg">
                 </div>
             </div>
+        </div>
 
-            <div id="about_company">
-                <span id="aboutus_big_font">ABOUT US</span>
-                <div id="aboutus_firstlogo">
-                    <div id="aboutus_firstlogo_line"></div>
-                    <div id="aboutus_firstlogo_text">О компании <br> <span style="color: #8487FF;">Merely</span> Technologies</div>
-                </div>
-                <span id="aboutus_text_1">В 2019 году мы начали создавать свои первые дизайн проекты, но со временем создали большую команду единомышлеников. Теперь мы стали заниматься web и ux/ui дизайном, открыли отдел разработки, smm и интернет маркетинг. В 2022 году мы официально зарегистрировали нашу компанию и вышли на IT - рынок. </span>
-                <div id="aboutus_secondlogo">
-                    <div id="aboutus_secondlogo_line"></div>
-                    <div id="aboutus_secondlogo_text">ТЕПЕРЬ О НАШЕЙ РАБОТЕ</div>
-                </div>
-                <span id="aboutus_text_2">Наши проекты решают ряд бизнес-задач</span>
-                <span id="aboutus_big_font_2">BUSINESS</span>
+        <div id="about_company">
+            <span id="aboutus_big_font">ABOUT US</span>
+            <div id="aboutus_firstlogo">
+                <div id="aboutus_firstlogo_line"></div>
+                <div id="aboutus_firstlogo_text">О компании <br> <span style="color: #8487FF;">Merely</span> Technologies</div>
+            </div>
+            <span id="aboutus_text_1">В 2019 году мы начали создавать свои первые дизайн проекты, но со временем создали большую команду единомышлеников. Теперь мы стали заниматься web и ux/ui дизайном, открыли отдел разработки, smm и интернет маркетинг. В 2022 году мы официально зарегистрировали нашу компанию и вышли на IT - рынок. </span>
+            <div id="aboutus_secondlogo">
+                <div id="aboutus_secondlogo_line"></div>
+                <div id="aboutus_secondlogo_text">ТЕПЕРЬ О НАШЕЙ РАБОТЕ</div>
+            </div>
+            <span id="aboutus_text_2">Наши проекты решают ряд бизнес-задач</span>
+            <span id="aboutus_big_font_2">BUSINESS</span>
 
                 <div id="aboutus_bisnesstasks">
                     <div class="bisnesstask" id="bisnesstask_1">
@@ -165,7 +151,6 @@
                 </div>  
             </div>
             <div class="questions">
-            <form id="tg-1" name="tg" onbutton="">   
                 <div class="question-1" id="question-1">
                     <div class="name">
                         <span class="name1">
@@ -178,7 +163,7 @@
                         <span class="question1">1.Выберите, что вас интересует:</span>
                     </div>
                     <div id="buttons">
-                        <button type="button" onclick="myFunction();" id="btn1" class="btn"><span class="textbtn1">РАЗРАБОТКА LANDING PAGE</span></button>
+                        <button type="button" onclick="myFunction();" id="btn1" class="btn "><span class="textbtn1">РАЗРАБОТКА LANDING PAGE</span></button>
                         <button type="button" onclick="myFunction();"id="btn2"  class="btn"><span class="textbtn1">РАЗРАБОТКА КОПОРАТИВНЫХ САЙТОВ</span></button>
                         <button type="button" onclick="myFunction();"id="btn3"  class="btn"><span class="textbtn1">РАЗРАБОТКА ПОРТАЛОВ</span></button>
                         <button type="button" onclick="myFunction();"id="btn4"  class="btn"><span class="textbtn1">РАЗРАБОТКА МАРКЕТПЛЕЙСОВ</span></button>
@@ -197,14 +182,14 @@
                         <span class="count">02/06</span>
                         <div class="line"></div>
                         <div class="question">
-                            <span class="question1">2. Какая у вас ниша? </span>
+                        <span class="question1">2. Какая у вас ниша? </span>
                         </div>
                         <div class="inputext">
-                            <input id="input1" type="text" name="nisha" placeholder="Введите нишу в которой вы работаете">
+                        <input id="input1" type="text" placeholder="Введите нишу в которой вы работаете" required>
                         </div>
                         <button type="button" onclick="myFunction()" id="btn2.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
                         <button type="button" onclick="myFunction()" id="btn2.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>                    
-                    </div>
+                </div>
                 <div class="question-3" id="question-3">
                     <div class="name">
                         <span class="name1">
@@ -217,7 +202,7 @@
                         <span class="question1">3. Какой у вас город? </span>
                     </div>
                     <div class="inputext">
-                        <input id="input1" name="town" type="text" placeholder="Введите ваш город" required>
+                        <input id="input1" type="text" placeholder="Введите ваш город" required>
                     </div>
                     <button type="button"  onclick="myFunction()" id="btn3.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
                     <button type="button" onclick="myFunction()"  id="btn3.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>                
@@ -236,7 +221,7 @@
                         <button type="button" id="btn1-1"  class="btn"><span class="textbtn1">БРЕНДОВЫЙ ЭЛЕМЕНТ</span></button>
                         <button type="button" id="btn2-1"  class="btn"><span class="textbtn1">ПРИВЛЕКАТЬ КЛИЕНТОВ</span></button>
                         <button type="button" id="btn3-1"  class="btn"><span class="textbtn1">СОЗДАВАТЬ ПОЛОЖИТЕЛЬНУЮ РЕПУТАЦИЮ В СЕТИ</span></button>
-                        <button type="button" id="btn4-1"  class="btn"><span class="textbtn1">ПОВЫСИТЬ ТРАФИК</span></button>
+                        <button type="button" id="btn4-1"  class="btn"><span class="textbtn1">ДРУГОЕ</span></button>
                         <button type="button" id="btn5-1"  class="btn"><span class="textbtn1">ПРОТЕСТИРОВАТЬ ГИПОТЕЗЫ</span></button>
                         <button type="button" id="btn6-1"  class="btn"><span class="textbtn1">ДРУГОЕ</span></button>
                         <button type="button" id="btn7-1"  class="btn"><span class="textbtn1">ПРИНИМАТЬ ОНЛАЙН ОПЛАТЫ НА САМОМ САЙТЕ</span></button>
@@ -253,7 +238,7 @@
                     <div class="line"></div>
                         <span class="question1">5. В какое время вам удобнее было бы провести интервью для подбора и расчета стоимости?</span>
                     <div class="inputext">
-                        <input id="input1" name="time" type="time" placeholder="Введите удобное время" required>
+                        <input id="input1" type="time" placeholder="Введите удобное время" required>
                     </div>
                     <button type="button" onclick="myFunction()"  id="btn4.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
                     <button type="button" onclick="myFunction()" id="btn4.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
@@ -270,7 +255,7 @@
                         <span class="question1">6. Введите номер телефона, по которому с вами можно связаться:</span>
                     </div>
                     <div class="inputext">
-                        <input id="input1_2" name="tel" type="tel" placeholder="Введите номер телефона" required>
+                        <input id="input1_2" type="tel" placeholder="Введите номер телефона" required>
                     </div>
                     <button type="button" onclick="myFunction()" id="btn5_1" class="btn-form-2"><span class="textbtn1"><font color="white" >ПОЛУЧИТЬ ПОДБОР РЕШЕНИЯ <br> И РАСЧЕТ СТОИМОСТИ</font></span></button>
                     <button type="button" onclick="myFunction()" id="btn5.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
@@ -282,51 +267,13 @@
                     </div>
                 </div>
             </div>
-        </form>
     </div>
-    <script src="js/index.js"></script>
-    <script>
-            $(function(){
+    <script src="js/index.js">   
+    </script>
+    <script>        
+    $(function(){
         $("#input1_2").mask("+7(999) 999-99-99");
       });
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script>
-        const TOKEN = "5681995083:AAGJtODHRLlM9GTMt8nRVExmRSj36-cocIY";
-        const CHAT_ID = "-1001888067535";
-        const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
-
-        document.getElementById('tg-1').addEventListener('button', function(e) {
-            e.preventDefault();
-
-            let message = `<b>Новая заявка</b>\n`;
-            message += `Пользователя интересует: ${btns}\n`;
-            message += `Ниша: ${this.nisha.value}\n`;
-            message += `Город: ${this.town.value}\n`;
-            message += `Функции сайта: ${mas}\n`;
-            message += `Удобное время: ${this.time.value}\n`;
-            message += `Время телефона: ${this.tel.value}`;
-            
-            axios.post(URI_API, {
-                chat_id: CHAT_ID,
-                parse_mode: 'html',
-                text: message
-            })
-            .then((res) =>{
-                this.nisha.value = "";
-                this.town.value = "";
-                this.time.value = "";
-                this.tel.value = "";
-                mas = [];
-                btns = "";
-                console.log(message)
-            })
-            .catch((err) => {
-                console.warn(err)
-            })
-            .finally(() => {
-            })
-        })
       </script>
 </body>
 </html>

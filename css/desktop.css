@@ -1496,9 +1496,6 @@ border: 1px solid #8487FF;
 display: block;
 }
 
-
-
-
 .menu__btn {
     display: flex; /* используем flex для центрирования содержимого */
     align-items: center;  /* центрируем содержимое кнопки */
@@ -1593,3 +1590,11 @@ display: block;
   #menu__toggle{
     display: none;
   }
+.btn1{
+position: absolute;
+width: 481px;
+height: 75px;
+left: 79px;
+top: 490px;
+font-family: 'Montserrat';
+}
