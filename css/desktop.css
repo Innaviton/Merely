@@ -1198,7 +1198,7 @@ z-index: 3;
     top: 1920px;
     height: 1020px;
     z-index: 5;
-    opacity: 0b;
+    opacity: 0;
     animation-name: questions-block;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -1596,7 +1596,7 @@ display: block;
     visibility: visible;
   }
 
-
+  
 
   .menu__btn > span,
   .menu__btn > span::before,
@@ -1605,9 +1605,9 @@ display: block;
   }
 
 
-  #menu__toggle{
+    #menu__toggle{
     display: none;
-  }
+    }
     .btn1{
     position: absolute;
     width: 481px;

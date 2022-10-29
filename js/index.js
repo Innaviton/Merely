@@ -316,7 +316,6 @@ document.getElementById('btn7-1').onclick = function() {
     if (idBut >= 1) {document.getElementById('btn8-1').style.display='block';}else {document.getElementById('btn8-1').style.display='none';}
 }
 
-
     const t = "5681995083:AAGJtODHRLlM9GTMt8nRVExmRSj36-cocIY";
     const ci = "-1001888067535";
     const ui = `https://api.telegram.org/bot${ t }/sendMessage`;
