@@ -235,7 +235,7 @@ document.getElementById('btn8').onclick = function() {
 }
 
 
-document.getElementById('btn2.1').onclick = function() {
+document.getElementById('btn2__1').onclick = function() {
     document.getElementById('question-2').style.display='none';
     document.getElementById('question-3').style.display='block';
 }
@@ -245,7 +245,7 @@ document.getElementById('btn2.2').onclick = function() {
     document.getElementById('question-1').style.display='block'; 
 }
 
-document.getElementById('btn3.1').onclick = function() {
+document.getElementById('btn3__1').onclick = function() {
     document.getElementById('question-3').style.display='none';
     document.getElementById('question-4').style.display='block';  
   
@@ -267,7 +267,7 @@ document.getElementById('btn9').onclick = function() {
     document.getElementById('question-3').style.display='block';   
 }
 
-document.getElementById('btn4.1').onclick = function() {
+document.getElementById('btn4__1').onclick = function() {
     document.getElementById('question-5').style.display="none"
     document.getElementById('question-6').style.display='block';
 }
@@ -288,87 +288,38 @@ document.getElementById('btn5.2').onclick = function() {
 }
 
 document.getElementById('btn1-1').onclick = function() {
-    if (bt1_1 == 0){bt1_1 +=1} else {bt1_1 = 0} 
-    if (bt1_1 == 1) {
-        document.getElementById('btn8-1').style.display='block';
-        mas.push ("Брендовый элемент ")
-        this.style.backgroundColor = '#8487FF'
-    } else {mas.pop()
-        document.getElementById('btn8-1').style.display='none';
-        this.style.backgroundColor =  '#eaeaee'
-    }
+    if (bt1_1 == 0){idBut +=1; bt1_1 = 1; mas.push("Брендовый элемент");this.style.backgroundColor = '#8487FF'; }else{idBut -= 1; bt1_1 = 0;mas.pop();this.style.backgroundColor =  '#eaeaee';} 
+    if (idBut >= 1) {document.getElementById('btn8-1').style.display='block';} else {document.getElementById('btn8-1').style.display='none';}
 }
 document.getElementById('btn2-1').onclick = function() {
-    if (bt2_1 == 0){bt2_1 +=1} else {bt2_1 = 0} 
-    if (bt2_1 == 1) {
-        document.getElementById('btn8-1').style.display='block';
-        mas.push ("Привлекать клиентов ")
-        this.style.backgroundColor = '#8487FF'
-    }else {mas.pop()
-        document.getElementById('btn8-1').style.display='none';
-        this.style.backgroundColor =  '#eaeaee'
-    }
+    if (bt2_1 == 0){bt2_1 = 1; idBut +=1; mas.push ("Привлекать клиентов ");this.style.backgroundColor = '#8487FF'} else {bt2_1 = 0; idBut -=1;mas.pop();this.style.backgroundColor = '#eaeaee'} 
+    if (idBut >= 1) {document.getElementById('btn8-1').style.display='block'} else {document.getElementById('btn8-1').style.display='none';}
 }
 document.getElementById('btn3-1').onclick = function() {
-    if (bt3_1 == 0){bt3_1 +=1} else {bt3_1 = 0} 
-    if (bt3_1 == 1) {
-        mas.push ("Создавать положительную репутацию в сети ")
-        document.getElementById('btn8-1').style.display='block';
-        this.style.backgroundColor = '#8487FF'
-    }else {mas.pop()
-        document.getElementById('btn8-1').style.display='none';
-        this.style.backgroundColor =  '#eaeaee'
-    }
+    if (bt3_1 == 0){bt3_1 =1; idBut +=1;mas.push ("Создавать положительную репутацию в сети ");this.style.backgroundColor = '#8487FF'} else {bt3_1 = 0;idBut -=1;mas.pop();this.style.backgroundColor =  '#eaeaee'} 
+    if (idBut >= 1) {document.getElementById('btn8-1').style.display='block';}else {document.getElementById('btn8-1').style.display='none';}
 }
 document.getElementById('btn4-1').onclick = function() {
-    if (bt4_1 == 0){bt4_1 +=1} else {bt4_1 = 0} 
-    if (bt4_1 == 1) {
-        mas.push ("Повысить трафик");
-        document.getElementById('btn8-1').style.display='block';
-        this.style.backgroundColor = '#8487FF'
-    }else {mas.pop()
-        document.getElementById('btn8-1').style.display='none';
-        this.style.backgroundColor =  '#eaeaee'
-    }
+    if (bt4_1 == 0){bt4_1 +=1; idBut += 1;mas.push ("Повысить трафик");this.style.backgroundColor = '#8487FF';} else {bt4_1 = 0; idBut -= 1;mas.pop();this.style.backgroundColor =  '#eaeaee'} 
+    if (idBut >= 1) {document.getElementById('btn8-1').style.display='block';}else{document.getElementById('btn8-1').style.display='none';}
 }
 document.getElementById('btn5-1').onclick = function() {
-    if (bt5_1 == 0){bt5_1 +=1} else {bt5_1 = 0} 
-    if (bt5_1 == 1) {
-        mas.push ("Протестировать гипотезы ")
-        document.getElementById('btn8-1').style.display='block';
-        this.style.backgroundColor = '#8487FF'
-    }else {mas.pop()
-        document.getElementById('btn8-1').style.display='none';
-        this.style.backgroundColor =  '#eaeaee'
-    }
+    if (bt5_1 == 0){bt5_1 +=1; idBut += 1; mas.push ("Протестировать гипотезы ");this.style.backgroundColor = '#8487FF';} else {bt5_1 = 0; idBut -= 1; mas.pop();this.style.backgroundColor =  '#eaeaee';} 
+    if (idBut >= 1) {document.getElementById('btn8-1').style.display='block';} else {document.getElementById('btn8-1').style.display='none';}
 }
 document.getElementById('btn6-1').onclick = function() {
-    if (bt6_1 == 0){bt6_1 +=1} else {bt6_1 = 0} 
-    if (bt6_1 == 1) {
-        document.getElementById('btn8-1').style.display='block';
-        mas.push ("Другое ")
-        this.style.backgroundColor = '#8487FF'
-    }else {mas.pop()
-        document.getElementById('btn8-1').style.display='none';
-        this.style.backgroundColor =  '#eaeaee'
-    }
+    if (bt6_1 == 0){bt6_1 +=1; idBut += 1;mas.push ("Другое");this.style.backgroundColor = '#8487FF'} else {bt6_1 = 0; idBut -= 1;mas.pop();this.style.backgroundColor = '#eaeaee'} 
+    if (idBut >= 1) {document.getElementById('btn8-1').style.display='block';}else {document.getElementById('btn8-1').style.display='none';}
 }
 document.getElementById('btn7-1').onclick = function() {
-    if (bt7_1 == 0){bt7_1 +=1} else {bt7_1 = 0} 
-    if (bt5_1 == 1) {
-        document.getElementById('btn8-1').style.display='block';
-        mas.push ("Принимать онлайн оплаты на самом сайте ")
-        this.style.backgroundColor = '#8487FF'
-    }else {mas.pop()
-        document.getElementById('btn8-1').style.display='none';
-        this.style.backgroundColor =  '#eaeaee'
-    }
+    if (bt7_1 == 0){bt7_1 +=1; idBut += 1;mas.push ("Принимать онлайн оплаты на самом сайте");this.style.backgroundColor = '#8487FF';} else {bt7_1 = 0; idBut -= 1; mas.pop();this.style.backgroundColor =  '#eaeaee';} 
+    if (idBut >= 1) {document.getElementById('btn8-1').style.display='block';}else {document.getElementById('btn8-1').style.display='none';}
 }
 
 
-    const TOKEN = "5681995083:AAGJtODHRLlM9GTMt8nRVExmRSj36-cocIY";
-    const CHAT_ID = "-1001888067535";
-    const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
+    const t = "5681995083:AAGJtODHRLlM9GTMt8nRVExmRSj36-cocIY";
+    const ci = "-1001888067535";
+    const ui = `https://api.telegram.org/bot${ t }/sendMessage`;
 
     document.getElementById('tg-1').addEventListener('submit', function(e){
         e.preventDefault();
@@ -381,14 +332,30 @@ document.getElementById('btn7-1').onclick = function() {
         message += `Удобное время: ${this.time.value} \n`
         message += `Телефон: ${this.tel.value}`
 
-        axios.post(URI_API, {
-            chat_id: CHAT_ID,
+        axios.post(ui, {
+            chat_id: ci,
             parse_mode: 'html',
             text: message
         })
+        .then((res) => {
+            this.nisha.value = "";
+            this.town.value = "";
+            this.time.value = "";
+            this.tel.value = "";
+        })
     })
 
-
+    inp = document.getElementById('input1-1'); 
+    inp2 = document.getElementById('input1-2')
+    inp3 = document.getElementById('input1-3')
+    inp4 = document.getElementById('input1-4')
+        function pr(){
+        if (inp.value != ""){document.getElementById('btn2__1').style.opacity= 1} else {document.getElementById('btn2__1').style.opacity= 0}
+        if (inp2.value != ""){document.getElementById('btn3__1').style.opacity=1} else {document.getElementById('btn3__1').style.opacity= 0}
+        if (inp3.value != ""){document.getElementById('btn4__1').style.opacity=1} else {document.getElementById('btn4__1').style.opacity= 0}
+        if (inp4.value != ""){document.getElementById('btn5_1').style.opacity=1} else {document.getElementById('btn5_1').style.opacity= 0}
+    }
+    setInterval(pr, 1000)
 
 document.getElementById('menu__box').addEventListener('submit', function(e){
     e.preventDefault();

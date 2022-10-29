@@ -197,9 +197,9 @@
                             <span class="question1">2. Какая у вас ниша? </span>
                             </div>
                             <div class="inputext">
-                            <input id="input1" name="nisha" type="text" placeholder="Введите нишу в которой вы работаете" required>
+                            <input class="input1" id="input1-1" name="nisha" type="text" placeholder="Введите нишу в которой вы работаете" required>
                             </div>
-                            <button type="button" onclick="myFunction()" id="btn2.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
+                            <button type="button" onclick="myFunction()" id="btn2__1" class="btn-form-2"><span class="textbtn1"><font color="white" >Далее</font></span></button>
                             <button type="button" onclick="myFunction()" id="btn2.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>                    
                     </div>
                     <div class="question-3" id="question-3">
@@ -214,9 +214,9 @@
                             <span class="question1">3. Какой у вас город? </span>
                         </div>
                         <div class="inputext">
-                            <input id="input1" type="text" name="town" placeholder="Введите ваш город" required>
+                            <input class="input1" id="input1-2" type="text" name="town" placeholder="Введите ваш город" required>
                         </div>
-                        <button type="button"  onclick="myFunction()" id="btn3.1" class="btn-form-2"><span class="textbtn1"><font color="white" >Далее</font></span></button>
+                        <button type="button"  onclick="myFunction()" id="btn3__1" class="btn-form-2"><span class="textbtn1"><font color="white" >Далее</font></span></button>
                         <button type="button" onclick="myFunction()"  id="btn3.2" class="btn-form-2-1"><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>                
                     </div>
                     <div class="question-4" id="question-4">
@@ -250,9 +250,9 @@
                         <div class="line"></div>
                             <span class="question1">5. В какое время вам удобнее было бы провести интервью для подбора и расчета стоимости?</span>
                         <div class="inputext">
-                            <input id="input1" name="time" type="time" placeholder="Введите удобное время" required>
+                            <input class="input1" id="input1-3" name="time" type="time" placeholder="Введите удобное время" required>
                         </div>
-                        <button type="button" onclick="myFunction()"  id="btn4.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
+                        <button type="button" onclick="myFunction()"  id="btn4__1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
                         <button type="button" onclick="myFunction()" id="btn4.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
                     </div>
                     <div class="question-6" id="question-6">
@@ -267,7 +267,7 @@
                             <span class="question1">6. Введите номер телефона, по которому с вами можно связаться:</span>
                         </div>
                         <div class="inputext">
-                            <input id="input1_2" name="tel" type="tel" placeholder="Введите номер телефона" required>
+                            <input class="input1_2" id="input1-4" name="tel" type="tel" placeholder="Введите номер телефона" required>
                         </div>
                         <button type="submit" onclick="myFunction()" id="btn5_1" class="btn-form-2"><span class="textbtn1"><font color="white" >ПОЛУЧИТЬ ПОДБОР РЕШЕНИЯ <br> И РАСЧЕТ СТОИМОСТИ</font></span></button>
                         <button type="button" onclick="myFunction()" id="btn5.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
@@ -284,7 +284,7 @@
     </script>
     <script>        
     $(function(){
-        $("#input1_2").mask("+7(999) 999-99-99");
+        $(".input1_2").mask("+7(999) 999-99-99");
       });
       </script>
       <script src="js/index.js"></script>
