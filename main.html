@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Merely tech</title>
-    <form action="send.php" method="post">
 </head>
 <body>
     <div class="wraper">
@@ -162,130 +161,133 @@
                     <span id="look">ПОСМОТРЕТЬ ПОРТФОЛИО</span>
                 </div>  
             </div>
-            <div class="questions" id="questions">
-                <div class="question-1" id="question-1">
-                    <div class="name">
-                        <span class="name1">
-                            Рассчитать стоимость вашего сайта
-                        </span>
-                    </div>
-                    <span class="count">01/06</span>
-                    <div class="line"></div>
-                    <div class="question">
-                        <span class="question1">1.Выберите, что вас интересует:</span>
-                    </div>
-                    <div id="buttons">
-                        <button type="button" onclick="myFunction();" id="btn1" class="btn "><span class="textbtn1">РАЗРАБОТКА LANDING PAGE</span></button>
-                        <button type="button" onclick="myFunction();"id="btn2"  class="btn"><span class="textbtn1">РАЗРАБОТКА КОПОРАТИВНЫХ САЙТОВ</span></button>
-                        <button type="button" onclick="myFunction();"id="btn3"  class="btn"><span class="textbtn1">РАЗРАБОТКА ПОРТАЛОВ</span></button>
-                        <button type="button" onclick="myFunction();"id="btn4"  class="btn"><span class="textbtn1">РАЗРАБОТКА МАРКЕТПЛЕЙСОВ</span></button>
-                        <button type="button" onclick="myFunction();"id="btn5"  class="btn"><span class="textbtn1">РАЗРАБОТКА ИНТЕРНЕТ-МАГАЗИНОВ</span></button>
-                        <button type="button" onclick="myFunction();"id="btn6"  class="btn"><span class="textbtn1">ДРУГОЕ</span></button>
-                        <button type="button" onclick="myFunction();"id="btn7"  class="btn"><span class="textbtn1">ТОЧНО НЕ ЗНАЮ, ЧТО НУЖНО</span></button>
-                        <button type="button" onclick="myFunction()" id="btn8" class=""><span class="textbtn1"><font color="white" >Далее</font></span></button>
-                    </div>
-                </div>
-                <div class="question-2" id="question-2">
-                    <div class="name">
-                        <span class="name1">
-                            Рассчитать стоимость вашего сайта
-                        </span>
+            <form id="tg-1">
+                <div class="questions" id="questions">
+                    <div class="question-1" id="question-1">
+                        <div class="name">
+                            <span class="name1">
+                                Рассчитать стоимость вашего сайта
+                            </span>
                         </div>
-                        <span class="count">02/06</span>
+                        <span class="count">01/06</span>
                         <div class="line"></div>
                         <div class="question">
-                        <span class="question1">2. Какая у вас ниша? </span>
+                            <span class="question1">1.Выберите, что вас интересует:</span>
+                        </div>
+                        <div id="buttons">
+                            <button type="button" onclick="myFunction();" id="btn1" class="btn "><span class="textbtn1">РАЗРАБОТКА LANDING PAGE</span></button>
+                            <button type="button" onclick="myFunction();"id="btn2"  class="btn"><span class="textbtn1">РАЗРАБОТКА КОПОРАТИВНЫХ САЙТОВ</span></button>
+                            <button type="button" onclick="myFunction();"id="btn3"  class="btn"><span class="textbtn1">РАЗРАБОТКА ПОРТАЛОВ</span></button>
+                            <button type="button" onclick="myFunction();"id="btn4"  class="btn"><span class="textbtn1">РАЗРАБОТКА МАРКЕТПЛЕЙСОВ</span></button>
+                            <button type="button" onclick="myFunction();"id="btn5"  class="btn"><span class="textbtn1">РАЗРАБОТКА ИНТЕРНЕТ-МАГАЗИНОВ</span></button>
+                            <button type="button" onclick="myFunction();"id="btn6"  class="btn"><span class="textbtn1">ДРУГОЕ</span></button>
+                            <button type="button" onclick="myFunction();"id="btn7"  class="btn"><span class="textbtn1">ТОЧНО НЕ ЗНАЮ, ЧТО НУЖНО</span></button>
+                            <button type="button" onclick="myFunction()" id="btn8" class=""><span class="textbtn1"><font color="white" >Далее</font></span></button>
+                        </div>
+                    </div>
+                    <div class="question-2" id="question-2">
+                        <div class="name">
+                            <span class="name1">
+                                Рассчитать стоимость вашего сайта
+                            </span>
+                            </div>
+                            <span class="count">02/06</span>
+                            <div class="line"></div>
+                            <div class="question">
+                            <span class="question1">2. Какая у вас ниша? </span>
+                            </div>
+                            <div class="inputext">
+                            <input id="input1" name="nisha" type="text" placeholder="Введите нишу в которой вы работаете" required>
+                            </div>
+                            <button type="button" onclick="myFunction()" id="btn2.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
+                            <button type="button" onclick="myFunction()" id="btn2.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>                    
+                    </div>
+                    <div class="question-3" id="question-3">
+                        <div class="name">
+                            <span class="name1">
+                                Рассчитать стоимость вашего сайта
+                            </span>
+                        </div>
+                        <span class="count">03/06</span>
+                        <div class="line"></div>
+                        <div class="question">
+                            <span class="question1">3. Какой у вас город? </span>
                         </div>
                         <div class="inputext">
-                        <input id="input1" type="text" placeholder="Введите нишу в которой вы работаете" required>
+                            <input id="input1" type="text" name="town" placeholder="Введите ваш город" required>
                         </div>
-                        <button type="button" onclick="myFunction()" id="btn2.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
-                        <button type="button" onclick="myFunction()" id="btn2.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>                    
-                </div>
-                <div class="question-3" id="question-3">
-                    <div class="name">
-                        <span class="name1">
-                            Рассчитать стоимость вашего сайта
-                        </span>
+                        <button type="button"  onclick="myFunction()" id="btn3.1" class="btn-form-2"><span class="textbtn1"><font color="white" >Далее</font></span></button>
+                        <button type="button" onclick="myFunction()"  id="btn3.2" class="btn-form-2-1"><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>                
                     </div>
-                    <span class="count">03/06</span>
-                    <div class="line"></div>
-                    <div class="question">
-                        <span class="question1">3. Какой у вас город? </span>
+                    <div class="question-4" id="question-4">
+                        <div class="name">
+                            <span class="name1">
+                                Рассчитать стоимость вашего сайта
+                            </span>
+                        </div>
+                        <span class="count">04/06</span>
+                        <div class="line"></div>
+                        <div class="question">
+                            <span class="question1">4. Какие задачи должен решать сайт?</span>
+                        </div>
+                            <button type="button" id="btn1-1"  class="btn"><span class="textbtn1">БРЕНДОВЫЙ ЭЛЕМЕНТ</span></button>
+                            <button type="button" id="btn2-1"  class="btn"><span class="textbtn1">ПРИВЛЕКАТЬ КЛИЕНТОВ</span></button>
+                            <button type="button" id="btn3-1"  class="btn"><span class="textbtn1">СОЗДАВАТЬ ПОЛОЖИТЕЛЬНУЮ РЕПУТАЦИЮ В СЕТИ</span></button>
+                            <button type="button" id="btn4-1"  class="btn"><span class="textbtn1">ДРУГОЕ</span></button>
+                            <button type="button" id="btn5-1"  class="btn"><span class="textbtn1">ПРОТЕСТИРОВАТЬ ГИПОТЕЗЫ</span></button>
+                            <button type="button" id="btn6-1"  class="btn"><span class="textbtn1">ДРУГОЕ</span></button>
+                            <button type="button" id="btn7-1"  class="btn"><span class="textbtn1">ПРИНИМАТЬ ОНЛАЙН ОПЛАТЫ НА САМОМ САЙТЕ</span></button>
+                            <button type="button" onclick="myFunction()" id="btn8-1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
+                            <button type="button" onclick="myFunction()" id="btn9" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
                     </div>
-                    <div class="inputext">
-                        <input id="input1" type="text" placeholder="Введите ваш город" required>
+                    <div class="question-5" id="question-5">
+                        <div class="name">
+                            <span class="name1">
+                                Рассчитать стоимость вашего сайта
+                            </span>
+                        </div>
+                        <span class="count">05/06</span>
+                        <div class="line"></div>
+                            <span class="question1">5. В какое время вам удобнее было бы провести интервью для подбора и расчета стоимости?</span>
+                        <div class="inputext">
+                            <input id="input1" name="time" type="time" placeholder="Введите удобное время" required>
+                        </div>
+                        <button type="button" onclick="myFunction()"  id="btn4.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
+                        <button type="button" onclick="myFunction()" id="btn4.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
                     </div>
-                    <button type="button"  onclick="myFunction()" id="btn3.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
-                    <button type="button" onclick="myFunction()"  id="btn3.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>                
-                </div>
-                <div class="question-4" id="question-4">
-                    <div class="name">
-                        <span class="name1">
-                            Рассчитать стоимость вашего сайта
-                        </span>
+                    <div class="question-6" id="question-6">
+                        <div class="name">
+                            <span class="name1">
+                                Рассчитать стоимость вашего сайта
+                            </span>
+                        </div>
+                        <span class="count">06/06</span>
+                        <div class="line"></div>
+                        <div class="question">
+                            <span class="question1">6. Введите номер телефона, по которому с вами можно связаться:</span>
+                        </div>
+                        <div class="inputext">
+                            <input id="input1_2" name="tel" type="tel" placeholder="Введите номер телефона" required>
+                        </div>
+                        <button type="submit" onclick="myFunction()" id="btn5_1" class="btn-form-2"><span class="textbtn1"><font color="white" >ПОЛУЧИТЬ ПОДБОР РЕШЕНИЯ <br> И РАСЧЕТ СТОИМОСТИ</font></span></button>
+                        <button type="button" onclick="myFunction()" id="btn5.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
                     </div>
-                    <span class="count">04/06</span>
-                    <div class="line"></div>
-                    <div class="question">
-                        <span class="question1">4. Какие задачи должен решать сайт?</span>
-                    </div>
-                        <button type="button" id="btn1-1"  class="btn"><span class="textbtn1">БРЕНДОВЫЙ ЭЛЕМЕНТ</span></button>
-                        <button type="button" id="btn2-1"  class="btn"><span class="textbtn1">ПРИВЛЕКАТЬ КЛИЕНТОВ</span></button>
-                        <button type="button" id="btn3-1"  class="btn"><span class="textbtn1">СОЗДАВАТЬ ПОЛОЖИТЕЛЬНУЮ РЕПУТАЦИЮ В СЕТИ</span></button>
-                        <button type="button" id="btn4-1"  class="btn"><span class="textbtn1">ДРУГОЕ</span></button>
-                        <button type="button" id="btn5-1"  class="btn"><span class="textbtn1">ПРОТЕСТИРОВАТЬ ГИПОТЕЗЫ</span></button>
-                        <button type="button" id="btn6-1"  class="btn"><span class="textbtn1">ДРУГОЕ</span></button>
-                        <button type="button" id="btn7-1"  class="btn"><span class="textbtn1">ПРИНИМАТЬ ОНЛАЙН ОПЛАТЫ НА САМОМ САЙТЕ</span></button>
-                        <button type="button" onclick="myFunction()" id="btn8-1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
-                        <button type="button" onclick="myFunction()" id="btn9" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
-                </div>
-                <div class="question-5" id="question-5">
-                    <div class="name">
-                        <span class="name1">
-                            Рассчитать стоимость вашего сайта
-                        </span>
-                    </div>
-                    <span class="count">05/06</span>
-                    <div class="line"></div>
-                        <span class="question1">5. В какое время вам удобнее было бы провести интервью для подбора и расчета стоимости?</span>
-                    <div class="inputext">
-                        <input id="input1" type="time" placeholder="Введите удобное время" required>
-                    </div>
-                    <button type="button" onclick="myFunction()"  id="btn4.1" class="btn-form-2  "><span class="textbtn1"><font color="white" >Далее</font></span></button>
-                    <button type="button" onclick="myFunction()" id="btn4.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
-                </div>
-                <div class="question-6" id="question-6">
-                    <div class="name">
-                        <span class="name1">
-                            Рассчитать стоимость вашего сайта
-                        </span>
-                    </div>
-                    <span class="count">06/06</span>
-                    <div class="line"></div>
-                    <div class="question">
-                        <span class="question1">6. Введите номер телефона, по которому с вами можно связаться:</span>
-                    </div>
-                    <div class="inputext">
-                        <input id="input1_2" type="tel" placeholder="Введите номер телефона" required>
-                    </div>
-                    <button type="button" onclick="myFunction()" id="btn5_1" class="btn-form-2"><span class="textbtn1"><font color="white" >ПОЛУЧИТЬ ПОДБОР РЕШЕНИЯ <br> И РАСЧЕТ СТОИМОСТИ</font></span></button>
-                    <button type="button" onclick="myFunction()" id="btn5.2" class="btn-form-2-1 "><span class="textbtn1"><font color="#8487FF" >Назад</font></span></button>
-                </div>
-                <div class="question-7" id="question-7">
-                    <div class="question-text">
-                        <span id="qu-tx-1">Поздравляю ваша заявка отправлена.</span>
-                        <span id="qu-tx-2">Вскоре с вами свяжется наш менеджер</span>
+                    <div class="question-7" id="question-7">
+                        <div class="question-text">
+                            <span id="qu-tx-1">Поздравляю ваша заявка отправлена.</span>
+                            <span id="qu-tx-2">Вскоре с вами свяжется наш менеджер</span>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </form>
     </div>
-    <script src="js/index.js">   
     </script>
     <script>        
     $(function(){
         $("#input1_2").mask("+7(999) 999-99-99");
       });
       </script>
+      <script src="js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 </html>

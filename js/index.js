@@ -31,7 +31,7 @@ function scroll2str() {
 
 function scroll3str() {
     window.scrollTo({
-        top: 1930, 
+        top: 1960, 
         left: 0,
         behavior: 'smooth' 
     })
@@ -53,7 +53,7 @@ function scroll5str() {
 
 function scroll6str() {
     window.scrollTo({
-        top: 4940,
+        top: 5000,
         behavior: 'smooth' 
     })
 }
@@ -323,7 +323,7 @@ document.getElementById('btn3-1').onclick = function() {
 document.getElementById('btn4-1').onclick = function() {
     if (bt4_1 == 0){bt4_1 +=1} else {bt4_1 = 0} 
     if (bt4_1 == 1) {
-        mas.push ("Повысить трафик ");
+        mas.push ("Повысить трафик");
         document.getElementById('btn8-1').style.display='block';
         this.style.backgroundColor = '#8487FF'
     }else {mas.pop()
@@ -363,8 +363,33 @@ document.getElementById('btn7-1').onclick = function() {
         document.getElementById('btn8-1').style.display='none';
         this.style.backgroundColor =  '#eaeaee'
     }
-
 }
 
 
+    const TOKEN = "5681995083:AAGJtODHRLlM9GTMt8nRVExmRSj36-cocIY";
+    const CHAT_ID = "-1001888067535";
+    const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
 
+    document.getElementById('tg-1').addEventListener('submit', function(e){
+        e.preventDefault();
+
+        let message = `<b>Новая заявка</b>\n`
+        message += `Пользователя интересует: ${btns}\n`
+        message += `Ниша: ${this.nisha.value} \n`
+        message += `Город: ${this.town.value} \n`
+        message += `Функции сайта ${mas} \n`
+        message += `Удобное время: ${this.time.value} \n`
+        message += `Телефон: ${this.tel.value}`
+
+        axios.post(URI_API, {
+            chat_id: CHAT_ID,
+            parse_mode: 'html',
+            text: message
+        })
+    })
+
+
+
+document.getElementById('menu__box').addEventListener('submit', function(e){
+    e.preventDefault();
+})

@@ -1198,8 +1198,8 @@ z-index: 3;
     position: relative;
     top: 2000px;
     height: 1000px;
-    animation-name: questions-block;
     opacity: 0;
+    animation-name: questions-block;
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
@@ -1512,6 +1512,11 @@ display: block;
     position: absolute;
     width: 100px;
     left: 10px;
+    animation-name: burg-op;
+    animation-duration: 1s;
+    animation-delay: 20s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
   }
   /* добавляем "гамбургер" */
   .menu__btn > span,
@@ -1592,11 +1597,11 @@ display: block;
   #menu__toggle{
     display: none;
   }
-.btn1{
-position: absolute;
-width: 481px;
-height: 75px;
-left: 79px;
-top: 490px;
-font-family: 'Montserrat';
-}
+    .btn1{
+    position: absolute;
+    width: 481px;
+    height: 75px;
+    left: 79px;
+    top: 490px;
+    font-family: 'Montserrat';
+    }
