@@ -1572,6 +1572,7 @@ display: block;
     font-size: 30px;
     line-height: 37px;
   }
+ 
 
   #menu-tx-2:hover, #menu-tx-3:hover, #menu-tx-4:hover, #menu-tx-5:hover, #menu-tx-6:hover{
     color: white;
@@ -1597,6 +1598,8 @@ display: block;
   #menu__toggle:checked ~ .menu__box {
     visibility: visible;
   }
+ 
+  
 
   
 
