@@ -24,21 +24,37 @@
                         </div>
                         <div class="menu-block">
                             <div class="hamburger-menu">
-                                <input id="menu__toggle" type="checkbox" />
-                                <label class="menu__btn" for="menu__toggle">
-                                  <span></span>
-                                </label>
+                               <input  id="menu__toggle" type="checkbox" />
+                                <label onclick="toggle_visibility1('menu__box1');" class="menu__btn" for="menu__toggle"><span></span></label>   
                                 <ul class="menu__box" id="menu__box1">
-                                  <li><a class="menu__item" id="menu-tx-1" href="">Главная</a></li>
-                                  <li><a class="menu__item" id="menu-tx-2" href="#about_company">О компании</a></li>
-                                  <li><a class="menu__item" id="menu-tx-3" href="#">Дизайн</a></li>
-                                  <li><a class="menu__item" id="menu-tx-4" href="#aboutus_bisnesstasks">Разработка</a></li>
-                                  <li><a class="menu__item" id="menu-tx-5" href="#">Project Menegment</a></li>
-                                  <li><a class="menu__item" id="menu-tx-6" href="#questions">Услуги</a></li>
+                                  <li><a class="menu__item" id="menu-tx-1" onclick="toggle_visibility('menu__box1');"href="">Главная</a></li>
+                                  <li><a class="menu__item" id="menu-tx-2" onclick="toggle_visibility('menu__box1');"href="#about_company">О компании</a></li>
+                                  <li><a class="menu__item" id="menu-tx-3" onclick="toggle_visibility('menu__box1');" href="#">Дизайн</a></li>
+                                  <li><a class="menu__item" id="menu-tx-4" onclick="toggle_visibility('menu__box1');"href="#aboutus_bisnesstasks">Разработка</a></li>
+                                  <li><a class="menu__item" id="menu-tx-5" onclick="toggle_visibility('menu__box1');"href="#">Project Menegment</a></li>
+                                  <li><a class="menu__item" id="menu-tx-6" onclick="toggle_visibility('menu__box1');"href="#questions">Услуги</a></li>
                                 </ul>
                               </div>
                         </div>
                     </div>
+                    <script type="text/javascript">
+                        function toggle_visibility(menu__box1) {
+                            var e = document.getElementById(menu__box1);
+                            if(e.style.display == 'block')
+                               e.style.display = 'none';
+                            else
+                               e.style.display = 'block';
+                        }
+                     </script>
+                     <script>
+                        function toggle_visibility1(menu__box1){
+                            var e = document.getElementById(menu__box1);
+                            if(e.style.display == 'none')
+                               e.style.display = 'block';
+                            else
+                               e.style.display = 'block';
+                        }
+                     </script>
                     <div class="animation-block">
                         <img id="triangle-1" src="img/trg-1.svg">
                         <img id="triangle-2" src="img/trg-2.svg">
